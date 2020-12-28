@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
     </head>
 <body>
     <header class="header">
@@ -21,6 +22,8 @@
                     <li><a href="contato.html">Contato</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
                 </ul>
+
+                <div class="toggle" onclick="ativarMenuMobile()"></div>
             </nav>
         </div>
     </header>
@@ -37,12 +40,13 @@
 
             <ul class="container-box-solucoes">
                 <li>
-                    <h2 class="subtitulo-white">Consultoria</h2>
-                    <div class="container-icon">
-                        <img src="img/icons/group.png" alt="">
-                    </div>
-                    <a href="" class="btn">Saiba mais</a>
+                        <h2 class="subtitulo-white">Consultoria</h2>
+                        <div class="container-icon">
+                            <img src="img/icons/group.png" alt="">
+                        </div>
+                        <a href="" class="btn">Saiba mais</a>
                 </li>
+
                 <li>
                     <h2 class="subtitulo-white" style=" font-size:1.2em;">Desenvolvimento <br> de software</h2>
                     <div class="container-icon">
@@ -106,6 +110,67 @@ Nossa história: Tudo começou em 2005, pelo atual CEO Bismarck Bandeira. A Foco
            
         </div>
     </section>
+    
+    <section class="section-contato">
+        <div class="container-contato">
+            <h2 class="titulo-section-black">Contato</h2>
+
+            <div class="container-info">
+                <div class="icon-info">
+                    <div class="box"> 
+                        <img src="img/icons/icon-telefone.svg" alt="">
+                        <div class="texto">
+                            <h2>Atendimento</h2>
+                            <h3>por telefone</h3>
+                        </div>
+                    </div>
+
+                    <div class="dados">
+                        <p>
+                            (11) 2774-2785
+                            <br>
+                            (11) 2774-2786
+                        </p>
+                    </div>
+                </div>
+
+
+    
+                <div class="icon-info">
+                    <div class="box"> 
+                        <img src="img/icons/icon-email.svg" alt="">
+                        <div class="texto">
+                            <h2>Atendimento</h2>
+                            <h3>por Email</h3>
+                        </div>
+                    </div>
+
+                    <div class="dados">
+                        <p>
+                            contato@focosp.com
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+       
+    </section>
+
+    <footer>
+        <div class="container-menu">
+            <small>© FocoSP 2019 - Todos os Direitos Reservados - Uma Empresa do Grupo BANM <br>
+            Avenida Amador Bueno da Veiga, 1230, cj. 212 - São Paulo - SP</small>
+            <img src="img/logo/logo.png" alt="logo">
+        </div>
+    </footer>
+
+   
+        <script type="text/javascript">
+          
+          navegarMenuMobile();
+      </script>
     
 </body>
 </html>
