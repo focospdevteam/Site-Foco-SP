@@ -119,7 +119,7 @@ header.active .toggle::after{
 }
 
 .subtitulo-white{
-    font-family: "Lemon";
+    font-family: 'Lemon', cursive;
     color:#fff;
     font-size:1.4em;
     text-align: center;
@@ -175,7 +175,7 @@ header.active .toggle::after{
 }
 
 .container-banner h1{
-    font-family: 'Lemon';
+    font-family: 'Lemon', cursive;
     font-size: 2em;
     color:white;
     display:block;
@@ -366,7 +366,7 @@ margin-right: 0;
 }
 
 .container-info .texto h3{
-    font-family: 'Lemon';
+    font-family: 'Lemon', cursive;
     color:#FF2900;
     font-size: 2em;
     text-transform: uppercase;
@@ -385,7 +385,7 @@ margin-right: 0;
 
 .dados p{
     color:white;
-    font-family: 'Lemon';
+    font-family: 'Lemon', cursive;
     font-size:1.2em;
 }
 
