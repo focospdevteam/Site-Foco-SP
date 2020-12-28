@@ -50,9 +50,21 @@ img {
 } 
 
 header.active ul{
-	transform: translateX(0);
-	opacity: 1;
+    opacity: 1;
+    display: flex;
+    animation: menu-mobile-ida 1s forwards;
 }
+
+@keyframes menu-mobile-ida{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+
 
 header.active .toggle::before{
 
@@ -462,7 +474,7 @@ footer small{
         display: flex;
     }
     .nav-menu ul{
-        display: flex;
+        display: none;
         flex-direction: column;
         position: absolute;
         justify-content: center;
@@ -474,9 +486,10 @@ footer small{
 		width: 50%;
         right:0;
         top:90px;
-        transform: translateX(100%);
         background-color: #010101;
         box-shadow: 0 3px 4px 0 rgba(0,0,0,0.5);
+        animation: menu-mobile-volta 1s forwards;
+        
     }
 
     
