@@ -19,10 +19,10 @@
             </a>
             <nav class="nav-menu">
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="solucoes.html">Soluções</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#solucoes">Soluções</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
 
                 <div class="toggle" onclick="ativarMenuMobile()"></div>
@@ -36,45 +36,84 @@
         </div>
     </section>
 
-    <section class="section-solucoes">
+    <section class="section-solucoes" id="solucoes">
         <div class="container-solucoes">
             <h2 class="titulo-section-black">Nossas Soluções</h2>
 
             <ul class="container-box-solucoes">
-                <li>
-                        <h2 class="subtitulo-white">Consultoria</h2>
-                        <div class="container-icon">
-                            <img src="img/icons/group.png" alt="">
+                <li class="card">
+                        <div class="flip">
+                            <div class="front-card">
+                                <h2 class="subtitulo-white">Consultoria</h2>
+                                <div class="container-icon">
+                                    <img src="img/icons/group.png" alt="">
+                                </div>
+                                <a href="" class="btn">Saiba mais</a>
+                            </div>
+                           
+                            <div class="back-card">
+
+                                <p>Atuando na melhoria de processos e na entrega de resultados positivos, a FocoSP se destaca por possuir processos consolidados de Gerenciamento de Projetos, Consultoria Empresarial e geração ágil de documentos de forma simplificada.</p>
+                                <a href="" class="btn">Voltar</a>
+                            </div>
                         </div>
-                        <a href="" class="btn">Saiba mais</a>
                 </li>
 
-                <li>
-                    <h2 class="subtitulo-white" style=" font-size:1.2em;">Desenvolvimento <br> de software</h2>
-                    <div class="container-icon">
-                        <img src="img/icons/software 2.png" alt="">
+                <li class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                            <h2 class="subtitulo-white" style=" font-size:1.2em;">Desenvolvimento <br> de software</h2>
+                            <div class="container-icon">
+                                <img src="img/icons/software 2.png" alt="">
+                            </div>
+                            <a href="" class="btn">Saiba mais</a>
+                        </div>
+
+                        <div class="back-card">
+                           <p>Desenvolvimento de Sistemas Multiplataforma, Integração de Sistemas, Modelagem de Dados. Seja qual a sua necessidade tecnológica, podemos ajudar.</p>
+                            <a href="" class="btn">Voltar</a>
+                        </div>
                     </div>
-                    <a href="" class="btn">Saiba mais</a>
                 </li>
-                <li>
-                    <h2 class="subtitulo-white">Treinamentos</h2>
-                    <div class="container-icon">
-                        <img src="img/icons/meeting.png" alt="">
+                <li class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                            <h2 class="subtitulo-white">Treinamentos</h2>
+                            <div class="container-icon">
+                                <img src="img/icons/meeting.png" alt="">
+                            </div>
+                            <a href="" class="btn">Saiba mais</a>
+                        </div>
+
+                        <div class="back-card">
+                            <p>
+                                Treinamentos personalizados, com material direcionaldo a sua necessidade. Não importa o tamanho da sua equipe
+                            </p>
+                            <a href="" class="btn">Voltar</a>
+                        </div>
                     </div>
-                    <a href="" class="btn">Saiba mais</a>
                 </li>
-                <li>
-                    <h2 class="subtitulo-white">Netsuite</h2>
-                    <div class="container-icon">
-                        <img src="img/icons/netsuite_icon.png" alt="">
+                <li class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                            <h2 class="subtitulo-white">Netsuite</h2>
+                            <div class="container-icon">
+                                <img src="img/icons/netsuite_icon.png" alt="">
+                            </div>
+                            <a href="" class="btn">Saiba mais</a>
+                        </div>
+
+                        <div class="back-card">
+                            <p>O ERP (NetSuite Enterprise Resource Planning) oferece uma solução moderna e escalonável para executar todas as suas principais operações de back-office e processos de negócios financeiros e contábeis na nuvem.</p>
+                            <a href="" class="btn">Voltar</a>
+                        </div>
                     </div>
-                    <a href="" class="btn">Saiba mais</a>
                 </li>
             </ul>
         </div>
     </section>
 
-    <section class="section-sobre">
+    <section class="section-sobre" id="sobre">
         <h2 class="titulo-section-white">Sobre</h2>
         <div class="container-sobre">
             <div class="nossa-historia">
@@ -113,7 +152,7 @@ Nossa história: Tudo começou em 2005, pelo atual CEO Bismarck Bandeira. A Foco
         </div>
     </section>
     
-    <section class="section-contato">
+    <section class="section-contato" id="contato">
         <div class="container-contato">
             <h2 class="titulo-section-black">Contato</h2>
 
@@ -172,6 +211,7 @@ Nossa história: Tudo começou em 2005, pelo atual CEO Bismarck Bandeira. A Foco
         <script type="text/javascript">
           
           navegarMenuMobile();
+          ativarflip();
       </script>
     
 </body>
